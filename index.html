@@ -6,36 +6,52 @@
 <title>F4 ARENA Pro</title>
 <link rel="stylesheet" href="style.css">
 <script src="app.js" defer></script>
+<script src="config.js" defer></script>
 </head>
 <body>
 <header>
-<img src="logo.png" alt="F4 ARENA Pro Logo" class="logo">
-<h1>🔥 F4 ARENA Pro 🔥</h1>
+  <img src="logo.png" alt="F4 ARENA Pro Logo" class="logo">
+  <h1>F4 ARENA Pro</h1>
+  <p>Battle . Win . Earn</p>
 </header>
 
 <nav>
-<button>Play</button>
-<button>My Match</button>
-<button>Results</button>
-<button>Profile</button>
-<button>Support</button>
-<a href="admin.html">Admin</a> <!-- Later secure -->
+  <button id="playBtn">Play</button>
+  <button id="matchBtn">My Match</button>
+  <button id="resultsBtn">Results</button>
+  <button id="profileBtn">Profile</button>
+  <button id="supportBtn">Support</button>
+  <button id="adminBtn">Admin</button> <!-- Player will get password prompt -->
 </nav>
 
 <main>
 <section id="matches">
-<h2>ম্যাচ লিস্ট</h2>
-<!-- JS দিয়ে matches load হবে -->
+  <h2>ম্যাচ লিস্ট</h2>
+  <p>আজকের ম্যাচ: BR / CS / Free</p>
 </section>
 
 <section id="leaderboard">
-<h2>লিডারবোর্ড</h2>
+  <h2>লিডারবোর্ড</h2>
+  <p>লিডারবোর্ড এখনও আপডেট হয়নি</p>
+</section>
+
+<section id="profileSection" style="display:none;">
+  <img src="logo.png" alt="F4 ARENA Pro Logo" class="logo">
+  <h1>F4 ARENA Pro</h1>
+  <p>Battle . Win . Earn</p>
+  <ul>
+    <li>Wallet</li>
+    <li>Withdraw</li>
+    <li>My Profile</li>
+    <li>All Rules</li>
+    <li>Auto Top Player</li>
+  </ul>
+  <p>Loading...</p>
+  <footer>
+    <p>Powered F4 ARENA Tour</p>
+  </footer>
 </section>
 </main>
 
-<footer>
-<p>© 2026 F4 ARENA Pro</p>
-<a href="privacy.html">Privacy Policy</a>
-</footer>
 </body>
 </html>

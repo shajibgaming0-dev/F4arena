@@ -1,5 +1,5 @@
 // Admin password
-const ADMIN_PASSWORD = "1234";
+const ADMIN_PASSWORD = "";
 
 // Firebase / Payment placeholders
 const firebaseConfig = {
